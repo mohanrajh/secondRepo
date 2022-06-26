@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 65.392 sec <<< FAILURE!
+quick launch font validation(dashboard validation)  Time elapsed: 59.047 sec  <<< FAILURE!
+java.lang.AssertionError: style not match
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepdefinition.Orangehrmvalidation.stylevalidation(Orangehrmvalidation.java:88)
+	at ?.I validate the style part of the element(file:///E:/SeleniumWorkspace/CF4_bddcucumberwithdatatable/src/test/resources/feature/orangehrmdatavalidation.feature:11)
+
